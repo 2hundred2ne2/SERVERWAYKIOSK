@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>serverway kiosk</title>
+</head>
+ 
+<style>
+
+    * {
+        font-size: 1.2em;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {   
+        font-family: 'Nanum Gothic', sans-serif;
+    }
+
+    /*main_wrap*/
+    #main_wrap {
+        width: 1080px;
+        /*height: 800px;*/
+
+        background-color: #FFF;
+
+        margin: 20px auto;
+
+        border: 1px solid #DDD;
+        border-radius: 5px;
+
+        box-shadow: 3px 3px 5px #DDD;
+
+        padding: 10px;
+
+    }
+
+    header {
+        margin: auto;
+        padding: 60px 100px;
+        margin: 0 50px;
+
+    }
+
+
+    #logo {
+        
+        bottom: 20px;
+        float: right;
+        padding: 60px
+    }
+
+    .banner {
+
+        height: 880px;
+        width: 1080px;
+    
+
+        border: 2px solid #DDD;
+
+        overflow: hidden;
+    }
+
+    .banner img {
+
+        height: 880px;
+        width: 1080px;
+
+
+
+    }
+
+    #btn {
+        
+    padding: 70px ;
+           
+
+
+        overflow: hidden;
+
+
+
+
+    }
+
+    .eat {
+        width: 350px;
+        height: 350px;
+
+        margin: 15px;
+        
+
+        background-color: #038c25;
+
+
+        border-radius: 50px;
+
+        text-align: center;
+
+        line-height: 350px;
+
+
+    }
+
+    .eat>a {
+        display: block;
+        font-size: 40px;
+
+        text-decoration: none;
+        color: white;
+        font-style: ;
+        border-radius: 30px;
+    }
+
+    .eat>a:hover {
+        background-color: #ffca08;
+
+
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+   #btn>div:nth-child(1) {
+        float: left;
+        
+
+
+    }
+      #btn>div:nth-child(2) {
+        float: right;
+
+
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+<script>
+    $(document).ready(function() {
+        setInterval(function() {
+            $('.banner img').first().appendTo('.banner')
+        }, 1000);
+
+    });
+</script>
+
+<body>
+
+
+    <div id="main_wrap">
+
+        <header>
+            <img src="img/logo.png" width="680" height="107" id="logo">
+
+
+
+        </header>
+
+
+
+        <div class="banner">
+            <img src="img/main1.PNG">
+            <img src="img/main2.PNG">
+            <img src="img/main3.PNG">
+           
+           
+
+        </div>
+
+        <div id="btn">
+            <div class="eat"><a href="main.html">매장</a></div>
+            <div class="eat"><a href="main.html">포장</a></div>
+        </div>
+      
+
+    </div>
+
+
+
+
+
+
+
+</body></html>

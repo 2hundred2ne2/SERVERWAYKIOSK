@@ -1,0 +1,1058 @@
+/* 색상
+#038c25
+#46a65e 
+
+#f2d194
+#f2f2f2
+#ee5200
+#eee
+#ffca08
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  
+    
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: white;
+}
+button{
+        border: none;
+    outline:none;
+}
+
+/*main_wrap*/
+#main_wrap {
+    width: 1080px;
+    /*height: 800px;*/
+
+    background-color: #FFF;
+
+    margin: 20px auto;
+
+    border: 1px solid #DDD;
+    border-radius: 5px;
+
+    box-shadow: 3px 3px 5px #DDD;
+
+    padding: 10px;
+
+}
+
+ header {
+        margin: auto;
+        padding: 0px  100px  0px  60px  ;
+        margin: 10px 50px;
+
+    }
+
+
+    #logo {
+        
+      
+        float: right;
+        padding: 60px
+    }
+
+
+/*---------nav---------*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.menuselect > button {
+    width: 270px;
+    height: 95px;
+    background-color: #ffca08;
+    font-size: 35px;
+    margin: 0px;
+    border-radius: 30px 30px 0px 0px;
+    border: none;
+    outline:none;
+
+}
+
+.menuselect > button:nth-child(2) {
+    background-color: #ee5200;
+}
+
+.menuselect > button:nth-child(3) {
+    background-color: #46a65e;
+}
+
+.menuselect > button:nth-child(4) {
+    background-color: #eee;
+}
+
+/*--------메뉴리스트----------*/
+
+.menulist {
+    background-color: #ffca08;
+    margin-top: 20px;
+    width: 1080px;
+    height: 1000px;
+    overflow: scroll;
+
+}
+.menulist{
+    background-color: #ffca08;
+    margin-top: 0px;
+    width: 1080px;
+    height: 1000px;
+    overflow: scroll;
+
+}
+
+.menu {
+    width: 340px;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.menu img {
+    margin: 25px 45px 0px 45px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+.menuselect table {
+    /*  width: 500px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 30px;*/
+   
+}
+
+.menu a1 {
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 24px;
+
+}
+
+.menu a2 {
+    /*  padding-left: 10px;*/
+    font-size: 20px;
+
+}
+
+/*배경색상*/
+
+
+#wrap {
+    display: none;
+    width: 1080pxpx;
+    height: 1080px;
+    background-color: #ee5200;
+}
+
+
+#salad {
+    display: none;
+    width: 1080pxpx;
+    height: 1080px;
+    background-color: #46a65e;
+}
+
+
+#etc {
+    display: none;
+
+    width: 1080pxpx;
+    height: 1080px;
+    background-color: #eee;
+}
+
+
+
+
+
+/*장바구니  class="cart" */
+.cart {
+   
+    width: 1080px;
+    height: 300px;
+
+}
+
+div.cartlist {
+
+    width: 660px;
+    height: 170px;
+    float: left;
+     margin: 10px 0 0;
+    background-color: pink;
+}
+
+div.sum{
+    
+    width: 660px;
+    height: 100px;
+    margin: 0 0 0 0;
+    background-color: skyblue;
+    float:left;
+}
+
+div.mainpay {
+ 
+    width: 400px;
+    height: 400px;
+    float: right;
+    
+    overflow: scroll;
+  
+
+}
+
+h5 {
+    font-size: 100%;
+  
+}
+
+.mainbutton > button {
+    width: 250px;
+    height: 85px;
+    border-radius: 40px;
+    font-size: 30px;
+    background-color: #46a65e;
+    color: white;
+    
+
+}
+
+.mainbutton > button:hover {
+    background-color: #ffca08;
+}
+
+.mainbutton > button:nth-child(1) {
+    margin: 60px 60px 40px 80px;
+
+
+}
+
+.mainbutton > button:nth-child(2) {
+    margin: 0px 60px 40px 80px;
+
+
+}
+
+
+
+/*<!------------------메뉴추가------------------!>*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+    
+}
+
+
+#greenText{
+    width: 870px;
+    text-align: left;
+    margin: 20px 15px;
+    font-size: 25px;
+    color:#46a65e;
+    font-weight: bold; 
+    background-color: #f2f2f2;
+    
+}
+
+p{
+    text-align: left;
+    font-size: 20px;
+    color: #46a65e;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+#choice{
+    overflow: scroll;
+    height: 820px;
+    width:auto;
+    
+}
+
+#choice_option{
+    float: left;
+    width: 900px;
+    
+}
+
+
+/*main_wrap*/
+div.choice_main_wrap {
+    
+    width: 930px;
+    height: 1380px;
+
+    background-color: #f2f2f2;
+
+    border: 1px solid #ddd;
+    border-radius: 80px;
+
+    box-shadow: 0px 0px 10px #aaa;
+
+    padding: 50px;
+    
+    position:absolute;
+    display: none;
+    
+    margin: 20px -500px;
+    top: 100px;
+    left: 49.5%;
+    
+    /*top:8%;
+    left:34.5%;*/
+}
+
+
+
+/*header*/
+
+
+header > h2 {
+    float: left;
+    font-size: 40px;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+
+
+label > input[type=radio] {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+    padding: 0 5px;
+   
+}
+
+#choice0 > label {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 20px;
+    padding: 0 10px;
+}
+
+
+/*nav*/
+nav {
+    padding: 20x;
+}
+
+
+/*메뉴*/
+#choice_wrap {
+    margin: 32px;
+    background-color: #f2f2f2;
+}
+
+#choice {
+    width: 850px;
+    padding: 5px;
+    background-color: #f2f2f2;
+}
+
+/*breadtype*/
+/*#choice_wrap > #choice > #breadtype {
+    overflow: hidden;
+}
+#choice_wrap > #choice > #breadtype > ul {
+    padding-left: 10px;
+    list-style: none;
+}
+#choice_wrap > #choice > #breadtype > ul > li {
+    width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}*/
+
+/*cheesetype*/
+/*#choice_wrap > #choice > #cheesetype {
+    overflow: hidden;
+}
+#choice_wrap > #choice > #cheesetype > ul {
+    padding-left: 10px;
+    list-style: none;
+}
+#choice_wrap > #choice > #cheesetype > ul > li {
+     width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}*/
+
+/*vegtype*/
+/*
+#choice_wrap > #choice > #vegtype {
+    overflow: hidden;
+}
+#choice_wrap > #choice > #vegtype > ul {
+    padding-left: 10px;
+    list-style: none;
+}
+#choice_wrap > #choice > #vegtype > ul > li {
+     width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}
+*/
+
+/*saucetype*/
+/*#choice_wrap > #choice > #saucetype {
+    overflow: hidden;
+}
+#choice_wrap > #choice > #saucetype > ul {
+    padding-left: 10px;
+    list-style: none;
+}
+#choice_wrap > #choice > #saucetype > ul > li {
+     width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}*/
+
+/*addtype*/
+/*
+#choice_wrap > #choice > #addtype {
+    overflow: hidden;
+}
+#choice_wrap > #choice > #addtype > ul {
+    padding-left: 10px;
+    list-style: none;
+}
+#choice_wrap > #choice > #addtype > ul > li {
+     width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}
+*/
+
+/*footer*/
+/*
+footer{    
+    text-align: center;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    left: 0;
+}
+*/
+
+/*ul>li 속성*/
+#choice ul li{
+    width: 200px;
+    float: left;
+    text-align: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+div.choice_main_wrap label{
+    background-color: #f2f2f2;
+}
+
+/*.cheesetype ul>li{
+    width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}
+.vegtype ul>li{
+    width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}
+.saucetype ul>li{
+    width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}
+.addtype ul>li{
+    width: 200px;
+    float: left;
+    list-style: none;
+    font-size: 24px;
+    padding: 10px;
+}*/
+
+
+/*가격*/
+#totalprice{
+    text-align: center;
+    margin: 40px; 
+    background-color: #f2f2f2;
+}
+
+
+/* 취소/담기 버튼*/
+.button {    
+    text-align: center;
+    background-color: #f2f2f2;
+    
+}
+
+.button>#btn{
+    margin: 30px;
+    font-size: 20px;
+    width: 250px;
+    height: 85px;
+    border: 0;
+    border-radius: 90px;
+    background: #46a65e;
+    color: white;
+    
+}
+
+.button>#btn:hover{
+    cursor: pointer;
+    background-color: #ffca08;
+}
+
+input[type=radio]{
+    margin-right:2px;
+    width:24px;
+    height: 24px;
+    border: 3px solid #eee;
+    background-color: #46a65e;
+    
+    
+}
+
+/*슬라이드 버튼 속성*/ 
+/*breadtype*/
+/*.breadtype{
+    position: relative;
+    
+}
+.breadtype button {
+    position: absolute;
+    z-index: 10px;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+}
+.breadtype button:before{
+    font-family: 'xeicon'; color: #ffca08; font-size: 40px;
+}
+.breadtype button:hover{
+     cursor: pointer;
+    background-color: #46a65e;
+}
+.breadtype button.slick-prev {
+    font-size: 0; color: transparent;
+    left: -80px;
+}
+.breadtype button.slick-prev:before {
+    font-family: 'xeicon';
+    content: "\ea47";
+}
+.breadtype button.slick-next {
+    font-size: 0; color: transparent;
+    right: -80px;
+}
+.breadtype button.slick-next:before {
+    font-family: 'xeicon';
+    content: "\ea48";
+}*/
+
+
+/*cheesetype*/
+/*
+.cheesetype{
+    position: relative;
+    
+}
+.cheesetype button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+}
+.cheesetype button:before{
+    font-family: 'xeicon'; color: #ffca08; font-size: 40px;
+}
+.cheesetype button:hover{
+    cursor: pointer;
+    background-color: #46a65e;
+}
+.cheesetype button.slick-prev {
+    font-size: 0; color: transparent;
+    left: -80px;
+}
+.cheesetype button.slick-prev:before {
+    font-family: 'xeicon';
+    content: "\ea47";
+}
+.cheesetype button.slick-next {
+    font-size: 0; color: transparent;
+    right: -80px;
+}
+.cheesetype button.slick-next:before {
+    font-family: 'xeicon';
+    content: "\ea48";
+}
+*/
+
+
+/*vegtype*/
+/*
+.vegtype{
+    position: relative;
+    
+}
+.vegtype button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+}
+.vegtype button:before{
+    font-family: 'xeicon'; color: #ffca08; font-size: 40px;
+}
+.vegtype button:hover{
+     cursor: pointer;
+    background-color: #46a65e;
+}
+.vegtype button.slick-prev {
+    font-size: 0; color: transparent;
+    left: -80px;
+}
+.vegtype button.slick-prev:before {
+    font-family: 'xeicon';
+    content: "\ea47";
+}
+.vegtype button.slick-next {
+    font-size: 0; color: transparent;
+    right: -80px;
+}
+.vegtype button.slick-next:before {
+    font-family: 'xeicon';
+    content: "\ea48";
+}
+*/
+
+
+/*saucetype*/
+/*.saucetype{
+    position: relative;
+    
+}
+.saucetype button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+}
+.saucetype button:before{
+    font-family: 'xeicon'; color: #ffca08; font-size: 40px;
+}
+.saucetype button:hover{
+     cursor: pointer;
+    background-color: #46a65e;
+}
+.saucetype button.slick-prev {
+    font-size: 0; color: transparent;
+    left: -80px;
+}
+.saucetype button.slick-prev:before {
+    font-family: 'xeicon';
+    content: "\ea47";
+}
+.saucetype button.slick-next {
+    font-size: 0; color: transparent;
+    right: -80px;
+}
+.saucetype button.slick-next:before {
+    font-family: 'xeicon';
+    content: "\ea48";
+}*/
+
+/*add type*/
+/*
+.addtype{
+    position: relative;
+    
+}
+.addtype button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: none;
+}
+.addtype button:before{
+    font-family: 'xeicon'; color: #ffca08; font-size: 40px;
+}
+.addtype button:hover{
+     cursor: pointer;
+    background-color: #46a65e;
+}
+.addtype button.slick-prev {
+    font-size: 0; color: transparent;
+    left: -80px;
+}
+.addtype button.slick-prev:before {
+    font-family: 'xeicon';
+    content: "\ea47";
+}
+.addtype button.slick-next {
+    font-size: 0; color: transparent;
+    right: -80px;
+}
+.addtype button.slick-next:before {
+    font-family: 'xeicon';
+    content: "\ea48";
+}
+*/
+
+
+
+/*도경*/
+#listresult{
+    height: 140px;
+    margin: 0;
+    padding: 0px 15px;
+    font-size: 24px;
+    font-weight:bold;
+    line-height: 50px;
+    color: #000;
+    background-color: #f2f2f2;
+    
+}
+
+#totalprice{
+   margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*alert_msg*/
+div.msg{
+    display: none;
+}
+
+#sumprice{
+    text-align: center;
+}
+
+
+
+div.choice_bottom{
+    width:850px;
+    margin: 0px;
+    padding: 40px;
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    left: 50px;
+}
+
+
+#pnbtn{
+    width:30px;
+    height:30px;
+    font-size:26px;
+    border-radius:10px;
+    border:0px;
+    background-color:#aaa;
+    color: #fff;
+}
+
+.numinput{
+    margin:0px;
+    width:60px;
+    height: 33px;
+    border-radius:10px;
+    border: 3px solid #aaa;
+    font-size:24px;
+    text-align: right;
+    font-weight: bold;
+    color: #46a65e;
+}
+
+.cart td{
+    font-size: 22px;
+    font-weight: bold;
+    color: #46a65e;
+    
+}
+
+
+/*-----------------order.css-----------------*/
+
+#order_body {
+    padding: 20px;
+    margin: 20px auto;
+    width: 930px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+#order_h1 {
+    font-size: 35pt;
+}
+
+#sandwich {
+    background-color: white;
+    text-align: left;
+    text-indent: 4em;
+    color: #46a65e;
+    font-size: 30pt;
+
+
+}
+
+#option {
+    line-height: 60px;
+    text-align: left;
+    text-indent: 8em;
+    font-size: 24pt;
+}
+
+#order_hr {
+    border: 0;
+    width: 80%;
+    height: 3px;
+    margin-left: 100px;
+    background: #ccc;
+}
+
+#cost {
+    background-color: white;
+    font-size: 24pt;
+}
+
+#totalcost {
+    background-color: white;
+    color: #46a65e;
+    font-size: 24pt;
+}
+
+#order_btn,
+#popbutton {
+    font-size: 25px;
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 20px 70px auto;
+    width: 250px;
+    height: 85px;
+    border: 0;
+    border-radius: 90px;
+    background: #46a65e;
+    color: white;
+
+}
+
+#order_btn:hover, #popbutton:hover {
+    cursor: pointer;
+    background-color: #ffca08;
+}
+
+
+#btn_order {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 25px;
+    width: 250px;
+    height: 85px;
+    border: 0;
+    border-radius: 90px;
+    background: #ffca08;
+    color: white;
+}
+
+#btn_order:hover {
+    cursor: pointer;
+    background-color: #46a65e;
+}
+
+
+/*도경추가*/
+div.orderlist_main_wrap {
+    position:absolute;
+    display: none;
+    
+    margin: 20px -500px;
+    top:50px;
+    left: 50%;
+}
+
+
+/*------------------payment.css-----------------*/
+#pay_edit_div {
+    padding: 20px;
+    margin:14px 0px 00px -570px;
+    width: 930px;
+    height: 1500px;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+
+#banner_sub{
+    margin:200px 120px 30px;
+    clear: left;
+    float: left;
+    text-align: center;
+}
+
+#card{
+    margin: 200px 120px; 400px;
+    text-align: center;
+    
+}
+
+#table{
+    text-align: center;
+    
+}
+
+#btn_pay{
+    font-size: 20pt;
+    width:250px;
+    height:85px;
+    border:0;
+    border-radius: 90px;
+    background: #46a65e;
+    color:white;
+    margin: 300px 30px 20px;
+   
+}
+
+#btn_pay:hover{
+    cursor: pointer;
+    background-color: #46a65e;
+}
+
+
+
+div.payment_main_wrap {
+    position:absolute;
+    display: none;
+    margin: 20px 70px auto;
+    top:50px;
+    left: 50%;
+}
+
+/*---------------------------number--------------------------*/
+
+div.number_main_wrap {
+    position:absolute;
+    display: none;
+    margin: 20px 70px auto;
+    top:50px;
+    left: 50%;
+}
+
+#numform{
+    margin: 150px 0px;
+}
+
+#Numfont1{
+    font-size: 40px;
+}
+
+#Numfont2{
+    font-size: 24px;
+}
+
+#Numfont3{
+    margin: 10px;
+}
+font{
+    font-size: 150px;
+}
+#date{
+    font-size: 24px;
+    text-align: match-parent;
+    margin: 20px 0px;
+    font-size: 30px;
+}
+
+#wait{
+    font-size: 40px;
+    text-align: center;
+    margin: 350px 0px 0px -440px;
+    width: 750px;
+    height: 1000px;
+    border:1px
+    solid #aaa;
+    border-radius:20px;
+    box-shadow: 0px 0px 5px #aaa;
+    background-color: #46a65e;
+          
+}
+#count{
+    margin: 50px;
+}
+
+#wait_table{
+    margin: 300px;
+}
+
+
